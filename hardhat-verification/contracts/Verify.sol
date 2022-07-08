@@ -8,7 +8,7 @@ contract Verify {
 
     function hello(bool sayHello) public pure returns (string memory) {
         if (sayHello) {
-            return "hello";
+            return "hello world";
         }
         return "";
     }
